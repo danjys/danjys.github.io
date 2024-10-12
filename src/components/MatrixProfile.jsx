@@ -1,0 +1,57 @@
+import React, { useEffect, useRef } from 'react';
+import { preloadFonts } from '../js/utils';
+import { TypeShuffle } from '../js/typeShuffle';
+import styles from "./matrix.profile.css";
+
+// Now we use TypeShuffle in a React component
+const MatrixProfile = () => {
+    const textRef = useRef(null);
+    const tsRef = useRef(null);
+
+    useEffect(() => {
+        // Initialize TypeShuffle when the component mounts
+        tsRef.current = new TypeShuffle(textRef.current);
+
+        // Cleanup on unmount
+        return () => {
+            if (tsRef.current) {
+                tsRef.current = null;
+            }
+        };
+    }, []);
+
+    const handleEffectClick = (effectId) => {
+        if (tsRef.current) {
+            tsRef.current.trigger(`fx${effectId}`);
+        }
+    };
+
+    return (
+        <div className="relative grid place-content-center px-8 py-12">
+            <main>
+                <dl className="content" ref={textRef}>
+                    <dt>Name</dt>
+                    <dd>Dhananjaya Somanna</dd>
+                    <dt>Profession</dt>
+                    <dd>Full stack development</dd>
+                    <dt>Bio</dt>
+                    <dd>20 years experience - C++, React JS, Python. Passion for creativity in the digital space. Problem solver. Hiker, guitar player, culinary enthusiast. Constantly seeking new challenges, growth opportunities. Bringing imaginative ideas to life. Skilled in modern web development frameworks such as React and Angular. Strong understanding of UI/UX design principles and ability to create visually appealing and usable websites.</dd>
+                    <dt>Projects</dt>
+                    <dd>Jarvis, Airbnb, Robinhood, Coinbase</dd>
+                    <dt>Awards</dt>
+                    <dd>Best User Experience Design, Webby Awards 2021</dd>
+                </dl>
+                <div className="effects">
+                    <button onClick={() => handleEffectClick(1)}>Effect 1</button>
+                    <button onClick={() => handleEffectClick(2)}>Effect 2</button>
+                    <button onClick={() => handleEffectClick(3)}>Effect 3</button>
+                    <button onClick={() => handleEffectClick(4)}>Effect 4</button>
+                    <button onClick={() => handleEffectClick(5)}>Effect 5</button>
+                    <button onClick={() => handleEffectClick(6)}>Effect 6</button>
+                </div>
+            </main>
+        </div>
+    );
+};
+
+export default MatrixProfile;

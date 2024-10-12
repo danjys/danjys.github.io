@@ -1,6 +1,5 @@
-import WaterDropGrid from './WaterDrop';
-import CustomName from './BubbleText';
 import { useScroll, motion, useTransform } from 'framer-motion';
+import MatrixProfile from './MatrixProfile';
 
 const Home = () => {
     const { scrollYProgress } = useScroll();
@@ -14,8 +13,7 @@ const Home = () => {
         id="home"
         className="min-h-screen flex flex-col items-center justify-center bg-gray-900 text-white pt-20"
       >
-        <CustomName></CustomName>
-        <WaterDropGrid></WaterDropGrid>
+        <MatrixProfile />
   
         {/* Add more content below */}
       </motion.section>
