@@ -52,6 +52,7 @@ const MatrixProfile = () => {
                     <dt>Awards</dt>
                     <dd>Best User Experience Design, Webby Awards 2021</dd>
                 </dl>
+                {/* x
                 <div className="effects">
                     <button onClick={() => handleEffectClick(1)}>Effect 1</button>
                     <button onClick={() => handleEffectClick(2)}>Effect 2</button>
@@ -60,6 +61,7 @@ const MatrixProfile = () => {
                     <button onClick={() => handleEffectClick(5)}>Effect 5</button>
                     <button onClick={() => handleEffectClick(6)}>Effect 6</button>
                 </div>
+               */}
             </main>
         </div>
     );
