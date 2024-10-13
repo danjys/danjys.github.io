@@ -46,11 +46,9 @@ const MatrixProfile = () => {
                     <dt>Profession</dt>
                     <dd>Full stack development</dd>
                     <dt>Bio</dt>
-                    <dd>20 years experience - C++, React JS, Python. Passion for creativity in the digital space. Problem solver. Hiker, guitar player, culinary enthusiast. Constantly seeking new challenges, growth opportunities. Bringing imaginative ideas to life. Skilled in modern web development frameworks such as React and Angular. Strong understanding of UI/UX design principles and ability to create visually appealing and usable websites.</dd>
+                    <dd>20+ years experience - C++, React JS, Python, AWS. Passion for creativity in the digital space. Problem solver. Constantly seeking new challenges, growth opportunities. Bringing imaginative ideas to life. Skilled in modern web development frameworks such as React and Angular. Strong understanding of UI/UX design principles and ability to create visually appealing and usable websites.</dd>
                     <dt>Projects</dt>
                     <dd>Jarvis, Airbnb, Robinhood, Coinbase</dd>
-                    <dt>Awards</dt>
-                    <dd>Best User Experience Design, Webby Awards 2021</dd>
                 </dl>
                 {/* x
                 <div className="effects">
