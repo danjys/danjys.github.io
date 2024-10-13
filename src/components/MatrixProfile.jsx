@@ -7,15 +7,26 @@ import styles from "./matrix.profile.css";
 const MatrixProfile = () => {
     const textRef = useRef(null);
     const tsRef = useRef(null);
+    const interval = useRef(null);
+
+    const MINUTE_MS = 30000;
 
     useEffect(() => {
         // Initialize TypeShuffle when the component mounts
         tsRef.current = new TypeShuffle(textRef.current);
 
+        interval.current = setInterval(() => {
+            tsRef.current.trigger(`fx6`);
+            //tsRef.current.trigger(`fx${Math.floor(Math.random() * (6 - 1 + 1) + 1)}`);
+          }, MINUTE_MS);
+
         // Cleanup on unmount
         return () => {
             if (tsRef.current) {
                 tsRef.current = null;
+            }
+            if(interval.current){
+                interval.current = null;
             }
         };
     }, []);
