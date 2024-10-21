@@ -8,23 +8,18 @@ const projects = [
     },
     {
       name: 'Airbnb',
-      description: 'A mobile app built with Flutter.',
-      link: 'https://github.com/user/project-two',
+      description: 'Vacation rental platform',
+      link: 'https://github.com/danjys/Robinhood',
     },
     {
       name: 'Robinhood',
-      description: 'A trading app.',
-      link: 'https://github.com/user/project-three',
+      description: 'A trading platform and a news scraper. Stock analysis using AI.',
+      link: 'https://github.com/danjys/Robinhood',
     },
     {
       name: 'Coinbase',
       description: 'Blockchain app.',
-      link: 'https://github.com/user/project-three',
-    },
-    {
-      name: 'Netflix',
-      description: 'Blockchain app.',
-      link: 'https://github.com/user/project-three',
+      link: 'https://github.com/danjys/Robinhood',
     }
     // Add more projects here
   ];
