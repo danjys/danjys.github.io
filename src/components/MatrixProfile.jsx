@@ -46,7 +46,7 @@ const MatrixProfile = () => {
                     <dt>Profession</dt>
                     <dd>Full stack development</dd>
                     <dt>Bio</dt>
-                    <dd>20+ years experience - C++, React JS, Python, AWS. Passion for creativity in the digital space. Problem solver. Constantly seeking new challenges, growth opportunities. Bringing imaginative ideas to life. Skilled in modern web development frameworks such as React and Angular. Strong understanding of UI/UX design principles and ability to create visually appealing and usable websites.</dd>
+                    <dd>Software engineer with over 20 years of expertise in C++, React JS, Python, and AWS. Driven by a passion for modern software engineering, cloud technologies, and AI-driven development. Known for delivering innovative, scalable solutions that align with business goals. A problem-solver who thrives on tackling complex challenges and bringing cutting-edge ideas to life, consistently seeking opportunities for growth in dynamic, forward-thinking environments.</dd>
                     <dt>Projects</dt>
                     <dd>Jarvis, Airbnb, Robinhood, Coinbase</dd>
                 </dl>
