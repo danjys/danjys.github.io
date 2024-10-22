@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import githubicon from "../assets/githublink.png";
+import JARVIS from "../assets/jarvis.png";
 import PORTFOLIO from "../assets/portfolio.png";
 
 const projects = [
@@ -7,7 +8,7 @@ const projects = [
       name: 'JARVIS-Style AI Assistant with Advanced Voice Control and Facial Recognition',
       description: 'Full stack development : Engineered a JARVIS-like AI assistant using Python, HTML/JavaScript, and Eel.js to create a seamless connection between a powerful backend and an interactive frontend. This AI system mimics Tony Stark\'s iconic assistant, offering intelligent automation, real-time responses, and advanced security protocols ',
       link: 'https://github.com/danjys/jarvis',
-      thumbnail: PORTFOLIO
+      thumbnail: JARVIS
     },
     {
       name: 'Airbnb',
