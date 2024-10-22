@@ -5,20 +5,20 @@ import PORTFOLIO from "../assets/portfolio.png";
 
 const projects = [
     {
-      name: 'JARVIS-Style AI Assistant with Advanced Voice Control and Facial Recognition',
-      description: 'Full stack development : Engineered a JARVIS-like AI assistant using Python, HTML/JavaScript, and Eel.js to create a seamless connection between a powerful backend and an interactive frontend. This AI system mimics Tony Stark\'s iconic assistant, offering intelligent automation, real-time responses, and advanced security protocols ',
+      name: 'JARVIS - An AI Assistant inspired by Ironman with Advanced Voice Control and Facial Recognition',
+      description: 'Full stack development : JARVIS - An AI assistant using Python, HTML/JavaScript, and Eel.js to create a seamless connection between a powerful backend and an interactive frontend. This AI system mimics Tony Stark\'s iconic assistant, offering intelligent automation, real-time responses, and advanced security protocols ',
       link: 'https://github.com/danjys/jarvis',
       thumbnail: JARVIS
     },
     {
-      name: 'Airbnb',
-      description: 'Vacation rental platform',
+      name: 'Arrow - AI Trading Platform',
+      description: 'A trading platform and a news scraper inspired by Robinhood. Stock analysis using AI. User Socket IO, Axios, Python and ReactJS',
       link: 'https://github.com/danjys/Robinhood',
       thumbnail: PORTFOLIO
     },
     {
-      name: 'Robinhood',
-      description: 'A trading platform and a news scraper. Stock analysis using AI.',
+      name: 'Airbnb',
+      description: 'Vacation rental platform',
       link: 'https://github.com/danjys/Robinhood',
       thumbnail: PORTFOLIO
     },
